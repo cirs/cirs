@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# exit on nonzero return for any command
+set -e
+
+xargo build --target x86_64-unknown-linux-cirs
+xargo test --target x86_64-unknown-linux-cirs

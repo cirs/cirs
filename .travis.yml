@@ -1,8 +1,11 @@
+cache: cargo
 dist: trusty
 
 git:
   depth: 1
 
+install: cargo install xargo
 language: rust
 rust: nightly
+script: sh scripts/x86_64-unknown-linux-cirs
 sudo: required
