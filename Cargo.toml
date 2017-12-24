@@ -1,0 +1,39 @@
+[badges.travis-ci]
+repository = "cirs/cirs"
+
+[badges.is-it-maintained-issue-resolution]
+repository = "cirs/cirs"
+
+[badges.is-it-maintained-open-issues]
+repository = "cirs/cirs"
+
+[badges.maintenance]
+status = "experimental"
+
+[features]
+# Feature gates coming soon to a libcirs near you.
+
+[lib]
+crate-type = [
+  "dylib",
+  "staticlib"
+]
+test = false
+
+[package]
+authors = [
+  "The Cirs Project Developers"
+]
+categories = ["no-std"]
+license = "MIT/Apache-2.0"
+name = "cirs"
+readme = "README.md"
+repository = "https://github.com/cirs/cirs"
+version = "0.1.0"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+lto = true
+panic = "abort"
