@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # exit on nonzero return for any command
-set -e
+set -ex
 
 gcc --version
 rustc -vV
