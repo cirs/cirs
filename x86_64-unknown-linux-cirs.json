@@ -15,7 +15,11 @@
   "os": "linux",
   "position-independent-executables": true,
   "pre-link-args": {
-    "gcc": ["-Wall","-z","noexecstack", "-m64"]
+    "gcc": [
+      "-Wl,--as-needed",
+      "-Wl,-z,noexecstack",
+      "-m64"
+    ]
   },
   "relro-level": "full",
   "stack-probes": true,
