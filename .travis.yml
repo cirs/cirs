@@ -9,5 +9,5 @@ install:
 - rustup component add rust-src
 language: rust
 rust: nightly
-script: sh scripts/x86_64-unknown-linux-cirs
+script: sh x86_64-unknown-linux-cirs
 sudo: required
