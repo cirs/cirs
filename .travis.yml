@@ -4,7 +4,7 @@ dist: trusty
 git:
   depth: 1
 
-install: scripts/ci/travis/install/x86_64-unknown-linux-cirs.sh
+install: sh scripts/ci/travis/install/x86_64-unknown-linux-cirs.sh
 language: rust
 rust: nightly
 script: sh scripts/x86_64-unknown-linux-cirs.sh
