@@ -1,4 +1,4 @@
-]cache: cargo
+cache: cargo
 dist: trusty
 
 git:
