@@ -7,6 +7,6 @@ then
 	cargo install xargo
 fi
 
+rustup component add rust-src
 xargo -vV
 
-rustup component add rust-src
