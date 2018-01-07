@@ -6,6 +6,11 @@ git:
 
 install: sh scripts/ci/travis/install/x86_64-unknown-linux-cirs.sh
 language: rust
+
+notifications:
+    email: 
+        on_success: never
+
 rust: nightly
 script: sh scripts/x86_64-unknown-linux-cirs.sh
 sudo: required
