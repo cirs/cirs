@@ -136,6 +136,7 @@ We do impose certain limitations on top of the [conventional commit format]:
 
 * `<type>`s that we use:
     * `bench`: Benchmarks.
+    * `ci`: Continuous Integration.
     * `doc`: Updating documentation.
     * `patch`: Bug fixes.
     * `rfc`: RFC implementations.
@@ -143,6 +144,7 @@ We do impose certain limitations on top of the [conventional commit format]:
     * `test`: Unit and Integration tests.
 * Various `<type>`s have different valid `<scope>`s:
     * `bench`: `path::to::function::to::benchmark`.
+    * `ci`: `travis`
     * `doc`: `documented::item`
     * `patch`, `security`: `Issue number`.
     * `rfc`: `RFC number`.
