@@ -4,6 +4,9 @@ cirs
 A (**very early work in progress**) implementation of C standard library in the
 [Rust Language].
 
+For the implementation, cirs uses the [N1570 draft] specification of C11 as a
+reference, which is same as the final release.
+
 **NOTE:** This crate is not intended to be directly depended on. Rather you
 should depend on the system libc produced by the crate.
 
@@ -59,5 +62,6 @@ be dual licensed as above, without any
 additional terms or conditions.
 
 [Rust Language]: https://www.rust-lang.org/en-US/
+[N1570 draft]: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf
 [LICENSE-APACHE]: LICENSE-APACHE
 [LICENSE-MIT]: LICENSE-MIT
