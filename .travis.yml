@@ -1,8 +1,12 @@
+branches:
+    except:
+    - /.*(.tmp)$
+
 cache: cargo
 dist: trusty
 
 git:
-  depth: 1
+    depth: 1
 
 install: sh scripts/ci/travis/install/x86_64-unknown-linux-cirs.sh
 language: rust
