@@ -1,6 +1,6 @@
 branches:
     except:
-    - /.*(.tmp)$
+    - /.*(.tmp)$/
 
 cache: cargo
 dist: trusty
